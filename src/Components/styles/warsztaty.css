@@ -1,0 +1,28 @@
+#warsztaty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dee2e6;
+    text-align: center;
+}
+
+.war-container {
+    max-width: 1400px;
+    width: 90%;
+}
+#warsztaty p {
+    margin: 0 0 2rem 0;
+}
+#warsztaty h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0 0 0.5rem rgba(237, 30, 121, 5);
+    margin: 0 1rem 2rem 1rem;
+}
+#warsztaty .war-container .war-content .war-content-container .wkrotce {
+    color: #ed1e79;
+    text-shadow: 0 0 1rem #ed1e79;
+}

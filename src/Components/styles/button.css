@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,100&display=swap');
+
+.rose-neon-button {
+    background: none;
+    min-width: 10rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    border: #ffd9eb solid 2px;
+    border-radius: 2rem;
+    box-shadow:
+            0 0 0.5rem #f393bf,
+            0 0 1.2rem rgba(237, 30, 121, 5),
+            0 0 1.5rem rgba(237, 30, 121, 15),
+            inset 0 0 0.3rem #f393bf,
+            inset 0 0 1.2rem rgba(237, 30, 121, 5),
+            inset 0 0 1.5rem rgba(237, 30, 121, 15);
+    padding: 1rem;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.rose-neon-button:hover{
+    border: rgb(212, 252, 244) solid 2px;
+    box-shadow:
+            0 0 0.1rem rgba(76, 239, 216, 3),
+            0 0 0.3rem rgba(76, 239, 216, 3),
+            0 0 2rem rgba(76, 239, 216, 7),
+            inset 0 0 0.1rem rgba(76, 239, 216, 3),
+            inset 0 0 0.3rem rgba(76, 239, 216, 3),
+            inset 0 0 1.5rem rgba(76, 239, 216, 7);
+}
+
+.blue-neon-button {
+    background: none;
+    min-width: 10rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.25rem;
+    border: #ffd9eb solid 2px;
+    border-radius: 2rem;
+    box-shadow:
+            0 0 0.1rem rgba(76, 239, 216, 3),
+            0 0 0.3rem rgba(76, 239, 216, 3),
+            0 0 2rem rgba(76, 239, 216, 7),
+            inset 0 0 0.1rem rgba(76, 239, 216, 3),
+            inset 0 0 0.3rem rgba(76, 239, 216, 3),
+            inset 0 0 1.5rem rgba(76, 239, 216, 7);
+    padding: 1rem;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.blue-neon-button:hover{
+    border: rgb(212, 252, 244) solid 2px;
+    box-shadow:
+            0 0 0.3rem #f393bf,
+            0 0 0.8rem rgba(237, 30, 121, 5),
+            0 0 1.5rem rgba(237, 30, 121, 15),
+            inset 0 0 0.3rem #f393bf,
+            inset 0 0 0.8rem rgba(237, 30, 121, 5),
+            inset 0 0 1.5rem rgba(237, 30, 121, 15);
+}
+
+.a-button {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .rose-neon-button {
+        margin-top: 3rem;
+        box-shadow:
+                0 0 0.3rem #f393bf,
+                0 0 0.8rem rgba(237, 30, 121, 5),
+                inset 0 0 0.3rem #f393bf,
+                inset 0 0 0.8rem rgba(237, 30, 121, 5);
+    }
+
+    .rose-neon-button:hover{
+        box-shadow:
+                0 0 0.1rem rgba(76, 239, 216, 3),
+                0 0 0.5rem rgba(76, 239, 216, 3),
+                inset 0 0 0.1rem rgba(76, 239, 216, 3),
+                inset 0 0 0.5rem rgba(76, 239, 216, 3);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .rose-neon-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+}

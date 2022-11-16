@@ -1,0 +1,98 @@
+.cardCT {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 1rem;
+    width: 200px;
+    margin: 1rem;
+}
+
+.cardCT img {
+    width: 100%;
+}
+
+.cardCT .title-work {
+
+
+}
+
+.cardCT .div1 {
+    display: flex;
+    align-items: flex-end;
+    height: 35px;
+}
+.cardCT .div2 {
+    display: flex;
+    align-items: flex-start;
+    height: 35px;
+}
+
+.cardCT span {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.9rem;
+    /*margin: 0.5rem 0;*/
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.cardCT span .title-work {
+    display: block;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    vertical-align: text-top;
+}
+
+
+@media screen and (min-width: 1284px) {
+    .cardCT {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 1284px) {
+    .cardCT {
+        margin: 1rem;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .cardCT {
+        width: 120px;
+        margin: 0.5rem;
+    }
+    .cardCT span {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.7rem;
+        /*margin: 0.5rem 0;*/
+        text-align: center;
+        vertical-align: text-bottom;
+    }
+}
+@media screen and (max-width: 557px) {
+    .cardCT {
+        width: 100px;
+        margin: 0.5rem;
+    }
+    .cardCT span .title-work {
+        display: block;
+        color: rgba(255, 255, 255, 0.74);
+        font-size: 0.7rem;
+        margin: 0 0;
+    }
+}
+@media screen and (max-width: 360px) {
+    .cardCT {
+        width: 70px;
+        margin: 0.25rem;
+    }
+    .cardCT span {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.50rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+}

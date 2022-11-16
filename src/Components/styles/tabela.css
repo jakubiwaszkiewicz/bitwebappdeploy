@@ -1,0 +1,129 @@
+.table {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #dee2e6;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+
+.col-border {
+    border-left: 2px solid rgb(248, 207, 223);
+    width: 0;
+    padding: 0;
+    margin: 0;
+
+    animation: flickerBorderRose 2s infinite alternate;
+}
+
+.row-border {
+    display: none;
+    border-top: 2px solid rgb(248, 207, 223);
+    width: 100%;
+    animation: flickerBorderRose 2s infinite alternate;
+}
+
+.table-item-left {
+    font-size: 1.6rem;
+    text-align: right;
+    padding: 1rem 2rem;
+    justify-content: center;
+}
+
+.table-item-right {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+.text-blue {
+    color: #4CEFD8;
+    font-weight: bold;
+}
+
+@keyframes flickerBorderRose {
+    0%, 53%, 75% {
+        box-shadow:
+                0 0 0.1rem rgba(237, 30, 121, 4),
+                0 0 0.6rem rgba(237, 30, 121, 4),
+                0 0 2rem rgba(237, 30, 121, 4);
+    }
+    34%, 60%, 100% {
+        box-shadow:
+                0 0 0.2rem rgba(237, 30, 121, 4),
+                0 0 0.4rem rgba(237, 30, 121, 4),
+                0 0 3rem rgba(237, 30, 121, 4);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .table-item-left {
+        font-size: 1.3rem;
+    }
+
+    .table-item-right {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .table-item-left {
+        font-size: 1.2rem;
+    }
+
+    .table-item-right {
+        font-size: 1.1rem;
+    }
+
+    .row {
+        width: 46vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .table {
+        padding: 0 2rem;
+    }
+
+    .table-item-left {
+        padding: 0 0;
+        text-align: center;
+        font-size: 1.3rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .table-item-right {
+        font-size: 0.9rem;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .row {
+        flex-flow: column;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    .col-border {
+        display: none;
+    }
+
+    .row-border {
+        display: flex;
+    }
+}
+

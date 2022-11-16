@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.animate {
+    transition: transform .35s ease-in-out;
+}
+
+.animate.grow {
+    opacity: 0;
+}

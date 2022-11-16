@@ -1,0 +1,67 @@
+html {
+  margin: 0;
+  max-width: 100vw;
+}
+* {
+  max-width: 100vw;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+  max-width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: 'Neoneon';
+  src: url('./fonts/neoneon-webfont.woff2') format('woff2'),
+  url('./fonts/neoneon-webfont.woff') format('woff'),
+  url('./fonts/Neoneon.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  max-width: 100vw;
+  margin: 0;
+}
+
+.wkrotce {
+  margin: 4rem 0 2rem;
+  font-size: 1.35rem;
+}
+
+section {
+  width: 100vw;
+  max-width: 100%;
+  padding-top: 66px;
+}
+
+
+.padding-section {
+  padding-top: 66px;
+}
+
+.appear {
+  animation: baseAnimation 702ms ease-in-out;
+}
+
+
+@keyframes baseAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    border-top: 2px rgb(190, 190, 190) solid;
+    animation: flickerBorderRoseFooter 1.2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer p {
+    font-size: 0.95rem;
+    color: rgb(225, 225, 225);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+@keyframes flickerBorderRoseFooter {
+    0%, 43%, 79% {
+        box-shadow:
+                0 0 0.2rem rgb(185, 255, 246),
+                0 0 0.6rem rgba(76, 239, 216, 4),
+                0 0 1rem rgba(76, 239, 216, 4);
+    }
+
+    32%, 66%, 100% {
+        box-shadow:
+                0 0 0.1rem rgb(185, 255, 246),
+                0 0 0.6rem rgba(76, 239, 216, 4),
+                0 0 0.8rem rgba(76, 239, 216, 4);
+    }
+}
