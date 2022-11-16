@@ -49,7 +49,7 @@ function App() {
                                         <Nav.Link onClick={() => clickHandler(1)}>Noc Gier</Nav.Link>
                                         <Nav.Link onClick={() => clickHandler(2)}>Turniej</Nav.Link>
                                         <Nav.Link onClick={() => clickHandler(3)}>BIT Jam</Nav.Link>
-                                        <Nav.Link onClick={() => clickHandler(4)}>Warsztaty</Nav.Link>
+                                        {/*<Nav.Link onClick={() => clickHandler(4)}>Warsztaty</Nav.Link>*/}
                                         <Nav.Link onClick={() => clickHandler(5)}>O nas</Nav.Link>
                                         <Nav.Link onClick={() => clickHandler(6)}>Partnerzy</Nav.Link>
                                     </Nav>

@@ -22,8 +22,8 @@ export default function TurniejPage () {
                         </p>
                     </div>
                     <div className="tur-cont-btn">
-                      <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Regulamin</div></a>
-                      <a className="a-button" href="#" target="_blank"><div className="rose-neon-button">Stream</div></a>
+                      <a className="a-button" href="https://drive.google.com/file/d/1tLte78dg2gzJgt4mJ1AQbk7A-Gg2b4fm/view?usp=sharing" target="_blank"><div className="rose-neon-button">Regulamin</div></a>
+                      <a className="a-button" href="https://www.twitch.tv/best_wroclaw" target="_blank"><div className="rose-neon-button">Stream</div></a>
                     </div>
                 </div>
             </div>

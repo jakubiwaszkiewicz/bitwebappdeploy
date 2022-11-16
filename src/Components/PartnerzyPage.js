@@ -6,8 +6,8 @@ export default function PartnerzyPage () {
     <section id="partnerzy" className="appear">
       <h3>Partnerzy</h3>
         <div className="partnerzy--boxes ">
-            {/*<h3 className="wkrotce">Już wkrótce!</h3>*/}
-            <h3>Partner dużo kaski</h3>
+            <h3 className="wkrotce">Już wkrótce!</h3>
+            {/*<h3>Partner dużo kaski</h3>
             <div className="partnerzy--box">
                 <img src={LOGO1} alt="cos tam" />
                 <img src={LOGO1} alt="cos tam" />
@@ -33,7 +33,7 @@ export default function PartnerzyPage () {
                 <img src={LOGO1} alt="cos tam" />
                 <img src={LOGO1} alt="cos tam" />
                 <img src={LOGO1} alt="cos tam" />
-            </div>
+            </div>*/}
             {/*<h3 className="wkrotce">Już wkrótce!</h3>*/}
         </div>
     </section>
